@@ -99,6 +99,7 @@ export type Lang =
   | 'mdc'
   | 'mdx'
   | 'mermaid'
+  | 'mips' | 'mipsasm'
   | 'mojo'
   | 'narrat' | 'nar'
   | 'nextflow' | 'nf'
@@ -891,6 +892,14 @@ export const languages: ILanguageRegistration[] = [
     path: 'mermaid.tmLanguage.json',
     displayName: 'Mermaid',
     samplePath: 'mermaid.sample'
+  },
+  {
+    id: 'mips',
+    scopeName: 'source.mips',
+    path: 'mips.tmLanguage.json',
+    displayName: 'MIPS Assembler',
+    samplePath: 'mips.sample',
+    aliases: ['mipsasm']
   },
   {
     id: 'mojo',

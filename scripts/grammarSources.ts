@@ -214,6 +214,7 @@ export const githubGrammarSources: [string, string][] = [
   ],
   ['mdc', 'https://github.com/nuxtlabs/vscode-mdc/blob/main/syntaxes/mdc.tmLanguage.json'],
   ['mdx', 'https://github.com/wooorm/markdown-tm-language/blob/main/source.mdx.tmLanguage'],
+  ['mips', 'https://github.com/textmate/mips.tmbundle/blob/master/Syntaxes/MIPS.tmLanguage'],
   ['mojo', 'https://github.com/modularml/mojo-syntax/blob/main/syntaxes/mojo.syntax.json'],
   [
     'narrat',
@@ -375,6 +376,7 @@ export const languageAliases = {
   kusto: ['kql'],
   make: ['makefile'],
   markdown: ['md'],
+  mips: ['mipsasm'],
   narrat: ['nar'],
   nextflow: ['nf'],
   'objective-c': ['objc'],

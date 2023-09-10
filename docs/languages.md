@@ -149,6 +149,7 @@ export type Lang =
   | 'mdc'
   | 'mdx'
   | 'mermaid'
+  | 'mips' | 'mipsasm'
   | 'mojo'
   | 'narrat' | 'nar'
   | 'nextflow' | 'nf'
